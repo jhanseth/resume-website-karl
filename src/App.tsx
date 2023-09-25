@@ -3,12 +3,14 @@ import "./App.css";
 import karlOpera from "./assets/karlOperaen.jpg";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import DownloadIcon from "@mui/icons-material/Download";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 
 function App() {
   return (
-    <>
+    <Box sx={{ display: "flex" }}>
       <div className="mainContent">
         <div className="textSection">
           <h1>Karl Hanseth</h1>
@@ -30,11 +32,15 @@ function App() {
 
           <div className="buttonSection"></div>
           <Stack direction="row" spacing={2}>
-            <Button variant="contained">
+            <Button
+              variant="outlined"
+              href="./public/CV Karl Hanseth.pdf"
+              target="_blank"
+            >
               Resume <DownloadIcon></DownloadIcon>
             </Button>
             <Button
-              variant="contained"
+              variant="outlined"
               href="https://www.linkedin.com/in/karl-hanseth-0285264/"
               target="_blank"
             >
@@ -47,7 +53,7 @@ function App() {
           <img src={karlOpera} className="karlOpera"></img>
         </div>
       </div>
-    </>
+    </Box>
   );
 }
 
