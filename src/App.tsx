@@ -1,6 +1,7 @@
 import "./App.css";
 
 import karlOpera from "./assets/karlOperaen.jpg";
+import karlHeadshot from "./assets/karlHeadshot.jpg";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import DownloadIcon from "@mui/icons-material/Download";
 import Box from "@mui/material/Box";
@@ -33,7 +34,7 @@ function App() {
           <Stack direction="row" spacing={2}>
             <Button
               variant="outlined"
-              href="./public/CV Karl Hanseth.pdf"
+              href="CV Karl Hanseth.pdf"
               target="_blank"
             >
               Resume <DownloadIcon></DownloadIcon>
@@ -49,6 +50,7 @@ function App() {
         </div>
 
         <div className="pictureSection">
+          <img src={karlHeadshot} className="karlHeadshot"></img>
           <img src={karlOpera} className="karlOpera"></img>
         </div>
       </div>
