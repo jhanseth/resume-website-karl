@@ -49,13 +49,13 @@ function App() {
           </div>
           <div className="buttonSection"></div>
           <Stack direction="row" spacing={2}>
-            <Button
+            {/* <Button
               variant="outlined"
               href="CV Karl Hanseth.pdf"
               target="_blank"
             >
               Resume <DownloadIcon></DownloadIcon>
-            </Button>
+            </Button> */}
             <Button
               variant="outlined"
               href="https://www.linkedin.com/in/karl-hanseth-0285264/"
