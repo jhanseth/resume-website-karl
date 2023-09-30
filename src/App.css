@@ -41,28 +41,39 @@ align-content: center;
 @media screen and (min-width: 1000px) {
   .textSection{
     position: relative;
-    max-width: 40%;
+    max-width: 30%;
     left: 8%;
-    top: 100px;
+    top: 8%;
     }
 
     .pictureSection{
       display: flex;
       position: relative;
-      max-width: 40%;
+      flex: wrap;
       right: 8%;
-      top: 50px;
+      top: 15%;
     }
 
     .karlOpera{
       display: inline;
-      max-width: 100%;
-      max-height: 100%;
       border-radius: 5px;
+      max-width: 100%;
+      max-height: 70%;
     }
 
     .karlHeadshot{
       display: none;
+    
+    
+}
+
+@media screen and (max-width: 1376px) {
+  .karlOpera{
+    display: inline;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 50%;
+  }
     
     
 }
