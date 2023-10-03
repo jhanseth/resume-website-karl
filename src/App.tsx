@@ -3,7 +3,7 @@ import "./App.css";
 import karlOpera from "./assets/karlOperaen.jpg";
 import karlHeadshot from "./assets/karlHeadshot.jpg";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-// import DownloadIcon from "@mui/icons-material/Download";
+import DownloadIcon from "@mui/icons-material/Download";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import CorporateFareIcon from "@mui/icons-material/CorporateFare";
@@ -27,10 +27,10 @@ function App() {
             enjoying working in a goal-oriented, decisive, and proactive manner.
           </p>
           <h4>Diverse leadership experience from: </h4>
-          <p>The Norwegian Opera and Ballet </p>
-          <p>Riksteatret</p>
+          <p>The Norwegian Opera & Ballet </p>
+          <p>Riksteatret - National touring theater </p>
           <p>Microsoft </p>
-          <p>Scandinavian Airlines </p>
+          <p>Scandinavian Airlines System </p>
           <p>Norwegian Armed Forces</p>
           <h4>Contact: </h4>
           <div className="contact">
@@ -49,13 +49,15 @@ function App() {
           </div>
           <div className="buttonSection"></div>
           <Stack direction="row" spacing={2}>
-            {/* <Button
-              variant="outlined"
-              href="CV Karl Hanseth.pdf"
-              target="_blank"
-            >
-              Resume <DownloadIcon></DownloadIcon>
-            </Button> */}
+            {
+              <Button
+                variant="outlined"
+                href="CV Karl Hanseth.pdf"
+                target="_blank"
+              >
+                Resume <DownloadIcon></DownloadIcon>
+              </Button>
+            }
             <Button
               variant="outlined"
               href="https://www.linkedin.com/in/karl-hanseth-0285264/"
