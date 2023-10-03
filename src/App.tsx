@@ -17,8 +17,10 @@ function App() {
     <Box sx={{ display: "flex" }}>
       <div className="mainContent">
         <div className="textSection">
+          <img src={karlHeadshot} className="karlHeadshot"></img>
           <h1>Karl Hanseth</h1>
           <h3>Technical Director</h3>
+
           <p>
             Experienced leader with strong change and innovation expertise from
             various industries. Proficient in strategy, organizational
@@ -28,11 +30,11 @@ function App() {
           </p>
           <div className="experienceSection">
             <h4>Diverse leadership experience from: </h4>
-            <p>- The Norwegian Opera & Ballet </p>
-            <p>- Riksteatret - National touring theater </p>
-            <p>- Microsoft </p>
-            <p>- Scandinavian Airlines System </p>
-            <p>- Norwegian Armed Forces</p>
+            <p>The Norwegian Opera & Ballet </p>
+            <p>Riksteatret - National touring theater </p>
+            <p>Microsoft </p>
+            <p>Scandinavian Airlines System </p>
+            <p>Norwegian Armed Forces</p>
           </div>
           <h4>Contact: </h4>
 
@@ -72,7 +74,6 @@ function App() {
         </div>
 
         <div className="pictureSection">
-          <img src={karlHeadshot} className="karlHeadshot"></img>
           <img src={karlOpera} className="karlOpera"></img>
         </div>
       </div>

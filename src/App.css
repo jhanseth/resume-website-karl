@@ -10,8 +10,14 @@ h3 {
   margin-top: -20px;
 }
 
+.experienceSection h4 {
+  margin-bottom: 5px;
+}
+
+
 .experienceSection p {
-margin: 3px;
+margin-block-start:  2px;
+margin-block-end: 10px;
 }
 
 .mainContent{
@@ -30,9 +36,10 @@ align-content: center;
 }
 
 .karlHeadshot{
-  height: 105px;
+  float: right;
+  height: 130px;
   border-radius: 10px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .contact p {
